@@ -1,0 +1,6 @@
+SELECT members.MemNo, members.FName, members.LName, votes.voted, votes.vote1, votes.vote2, votes.vote3, votes.vote4 from members, votes
+where members.Id = votes.Id
+
+select vote1, count(*) from votes group by vote1
+select vote2, count(*) from votes group by vote2
+select vote3, count(*) from votes group by vote3

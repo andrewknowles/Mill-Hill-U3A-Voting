@@ -1,0 +1,86 @@
+/*REMEMBER
+div id = # in css and class = . 
+https://dabuttonfactory.com/#t=Vote+Now&f=Calibri-Bold&ts=24&tc=fff&tshs=1&tshc=000&hp=20&vp=8&c=5&bgt=unicolored&bgc=1f2bff&bs=4&bc=fff515&shs=1&shc=444&sho=s&it=png
+*/
+body {
+	background-color: #f3f3f3;
+	font-family: Arial, Helvetica, Sans-Serif;
+	font-size: 15px;
+	line-height: 1.5;
+	padding: 0;
+	margin: 0;
+}
+
+header {
+	background-color: #1F2BFF;
+	color:#ffffff;
+	padding-top:0px;
+	min-height:80px;
+	border-bottom:#FFF515 5px solid;
+	margin:0;
+	padding-bottom:0px;
+}
+
+header #logo {
+	float: left;
+	margin:0;
+	padding:0;
+}
+
+header #title {
+padding-top: 10px;	
+}
+
+#submit {
+    background-color: #1F2BFF;
+	-moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius:6px;
+    color: #FFF515;
+    font-size: 24px;
+	font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+    border: 2px solid #FFF515;
+}
+
+table {
+	margin: 0 auto;
+}
+
+h1 {
+	text-align: center;
+}
+
+h2 {
+	text-align: center;
+}
+
+h3 {
+	text-align: center;
+}
+
+footer {
+	background-color: #1F2BFF;
+	color:#ffffff;
+	padding-top:5px;
+	min-height:70px;
+	border-top:#FFF515 5px solid;
+	margin:0;
+	padding-bottom:0px;
+}
+
+input[type=text] {
+	background-color: gray;
+	height: 30px;
+	border: 2px solid #FFF515;
+    border-radius: 4px;
+    font-size: 24px;
+    font-style: bold;
+    width: 150px; 
+}
+
+.Resolution p {
+	margin-left: 150px;
+	margin-right: 150px;
+}
