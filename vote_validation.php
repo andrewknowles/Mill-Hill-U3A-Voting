@@ -35,22 +35,35 @@
 		
 		<h1> Special General Meeting 15th March 2018</h1>
 		<h2>Please enter your Unique Members Key recently sent to you by email in the dark grey area below</h2>
-		<h2>This key is 8 characters long and contains only the characters a-z and 0-9</br></br>
+		<h2>This key is 8 characters long and contains only the characters a-z and 0-9</br>
+		<h2>Voting will close at 13-03-2018 23:59:59</h2><br>
 		
 			<form action="vote_form21.php" method="post" name="key_input" onsubmit="return validateForm()"><h3>
 				<table>
 					<tr>
+						<?php
+//set the closing date for the vote here - this is also checked as the database is updated in update_vote.php
+//$limit needs to be changed in update_vote also!!!
+						$limit = '2018-03-13 23:59:59';
+						$today = date('Y-m-d H:i:s');
+						if ($limit > $today){ ?>
 						<td>Unique Members Key</td>
 						<td><input type="text" name="member_key" id="keyib" value="" /></td>
 						<td><input type="image" alt="submit" src="./images/button_submit.png" /></td>
-<!--						<td><input type="submit" name="CHECK" id="submit" value ="Submit" /></td>-->  
-					</tr>
+<!--						<td><input type="submit" name="CHECK" id="submit" value ="Submit" /></td>-->
+						<?php
+					} else {
+						echo "<h2>Voting closed at 13-03-2018 23:59:59</h2>";
+						exit;
+					}
+						?>  
+						</tr>
 				</table>
-			</form></h3>
+			</h3></form>
 		</br></br></br></br></br></br></br>
 	
 		<footer>
-			<h3>Need help ? - email webmastermhu3a@gmail.com or phone XXXXXXXXXXXXXX</h3>
+			<h3>Need help ? - email webmastermhu3a@gmail.com or phone 07704 992268</h3>
 			<h3>Mill Hill U3A, Copyright &copy; 2017</h3>
 		</footer>
 

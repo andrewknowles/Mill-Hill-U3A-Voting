@@ -84,7 +84,7 @@
 			
 			
 		<footer>
-			<h2>Need help ? - email webmastermhu3a@gmail.com or phone XXXXXXXXXXXXXX</h2>
+			<h2>Need help ? - email webmastermhu3a@gmail.com or phone 07704 992268</h2>
 			<h3>Mill Hill U3A, Copyright &copy; 2017</h3>
 		</footer>
 		
